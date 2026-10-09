@@ -24,7 +24,7 @@ parser.add_argument("--seed", type=int, default=SEEDS_TO_TEST[0], help="Seed to 
 args = parser.parse_args()
 
 SEED = args.seed
-CHECKPOINT_DIR = f"/home/nathanl/scviva_paper/merfish_brain/checkpoints/{os.path.splitext(setup.DATA_FILE)[0]}"
+CHECKPOINT_DIR = "/home/nathanl/scviva_paper/crc_visium_hd/checkpoints/adata_legacy_hvg4k_robustness"
 SAVE_DIR = "/home/nathanl/scviva_paper/crc_visium_hd/figures/robustness/losses/"
 os.makedirs(SAVE_DIR, exist_ok=True)
 

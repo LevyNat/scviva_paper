@@ -33,7 +33,7 @@ FLIP_NAMES = ["f0", "f1", "f5", "f10"]
 FLIP_RATE_MAP = {"f0": 0.0, "f1": 0.01, "f5": 0.05, "f10": 0.10}
 FLIP_LABELS = ["f0 (0%)", "f1 (1%)", "f5 (5%)", "f10 (10%)"]
 
-CKPT_DIR = "/home/nathanl/scviva_paper/merfish_brain/checkpoints/adata_legacy_hvg4k"
+CKPT_DIR = "/home/nathanl/scviva_paper/crc_visium_hd/checkpoints/adata_legacy_hvg4k_robustness"
 SCIB_DIR = "/home/nathanl/scviva_paper/crc_visium_hd/figures/robustness/seeds/"
 SAVE_DIR = "/home/nathanl/scviva_paper/crc_visium_hd/figures/robustness/seeds/journal/"
 os.makedirs(SAVE_DIR, exist_ok=True)

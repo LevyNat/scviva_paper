@@ -226,7 +226,7 @@ data_file_name = os.path.splitext(data_file)[0]
 print(data_file_name)
 
 # path_to_save = os.path.join("../checkpoints", data_file_name)
-path_to_save = f"/home/nathanl/scviva_paper/merfish_brain/checkpoints/{data_file_name}"
+path_to_save = "/home/nathanl/scviva_paper/crc_visium_hd/checkpoints/adata_legacy_hvg4k_robustness"
 os.makedirs(path_to_save, exist_ok=True)
 os.makedirs(setup.FIGURES_FOLDER, exist_ok=True)
 

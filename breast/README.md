@@ -13,4 +13,4 @@ and a Proseg re-segmentation (`breast_proseg/`).
 
 - The runners load the provided models when they exist. For the original segmentation, the embedding uses the 1001-epoch scVIVA model (`N_EPOCHS_NICHEVI`) and the DE notebooks use the 1000-epoch model (`N_EPOCHS_NICHEVI_DE`), as in the paper.
 - scRNA-seq references: the Wu et al. 2021 atlas (Table 1; the DE notebooks build the endothelial reference `breast_sc_atlas_wu2021_DE.h5ad` from it) and the "Global Atlas" (Fig. S17), both from CELLxGENE (links in the main README).
-- `preprocessing/` documents how the Proseg input was built (Proseg, scANVI and resolVI label transfer). We provide the final `proseg_resolvi_scanvi_xenium_breast_cancer_S1_R1_2.h5ad`.
+- `preprocessing/` documents how the Proseg input was built (Proseg, scANVI and resolVI label transfer; steps in `preprocessing/README.md`). We provide the final `proseg_resolvi_scanvi_xenium_breast_cancer_S1_R1_2.h5ad`.

@@ -389,9 +389,9 @@ adata.write_h5ad(
 with open(path_to_save + "/models_history.pkl", "wb") as pickle_file:
     pd.to_pickle(history_setup, pickle_file)
 
-from plot_history import plot_history
+# from plot_history import plot_history
 
-plot_history()
+# plot_history()
 
 # ----------Benchmarks----------#
 

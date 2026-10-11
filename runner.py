@@ -541,7 +541,7 @@ def _plot_region_vs_celltype_scatter(df_DE, scib_df, colors, save_path_no_ext):
     """df_DE holds per-cell-type conservation (rows=cell types) of the NICHE/region
     label within each cell type - mean±std across cell types is "region conservation".
     scib_df's "Bio conservation" column is the single aggregate cell-type-preservation
-    score per method. Mirrors brain/Figure_2_BC.ipynb's region_celltype_scatter cell.
+    score per method.
     """
     region_mean = df_DE.mean(axis=0)
     region_std = df_DE.std(axis=0)

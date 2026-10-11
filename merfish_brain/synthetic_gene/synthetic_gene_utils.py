@@ -12,7 +12,7 @@ import pandas as pd
 from scipy import sparse
 from scipy.stats import pearsonr
 
-from params import setup
+from params_positive import setup
 
 
 def _build_synthetic_matrix(

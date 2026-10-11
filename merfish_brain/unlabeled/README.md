@@ -9,5 +9,6 @@ scVIVA trained on the cell types using scIB scores computed with the original la
 | 2. train and score | `python runner_no_labels.py` | one scVIVA model per resolution in `LEIDEN_RES`; `scib_cell_type_results_ablation_nolabel.csv`, `BioCons_cell_type_ablation_nolabel_res<res>.csv` for each resolution in `FIGURE_LEIDEN_RES`; `merfish_brain/checkpoints/adata_M1_M2_core_6_sections/adata_M1_M2_core_6_sections_nolabel_nicheVI.h5ad` |
 | 3. plot | `merfish_brain/Figure_S2_S3.ipynb`, section "Fig. S2" | `X_scVI_umap_nolabel.svg` (A: cell types and the Leiden clusters at each resolution), `nolabels_scib_scatter.svg` (B), `nolabels_region_celltype.svg` (C) |
 
+The paper's Fig. S2 shows resolution 0.15 (17 clusters); the notebook also plots 0.35.
 Step 3 also reads the labeled scVIVA results of `python runner.py merfish_brain/Figure_2`.
 The scVI and scVIVA models are saved in `merfish_brain/checkpoints/adata_M1_M2_core_6_sections/`; the runner loads them when they exist.

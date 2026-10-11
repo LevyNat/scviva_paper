@@ -1,6 +1,6 @@
-# CosMx human frontal cortex (Fig. S9)
+# CosMx human frontal cortex (Fig. S8)
 
-**Benchmark (Fig. S9A-C)**
+**Benchmark (Fig. S8A-C)**
 
 | step | command | output |
 |---|---|---|
@@ -8,7 +8,7 @@
 | 2. baselines | `(cd baselines && ./run_benchmark.sh cosmx_cortex_hvg5000 0)` | BANKSY and SimVI embeddings, written into the data file |
 | 3. scANVI + scVIVA + scIB | `python runner.py cosmx_brain` (from the repo root) | scIB tables and plots in `cosmx_brain/figures/` |
 
-**Duplicated astrocytes (Fig. S9D-F)**: astro.2 astrocytes from the upper cortical layers (L2/3) duplicated into the vessel / peri-vascular region.
+**Duplicated astrocytes (Fig. S8D-F)**: astro.2 astrocytes from the upper cortical layers (L2/3) duplicated into the vessel / peri-vascular region.
 
 | step | command | output |
 |---|---|---|

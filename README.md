@@ -27,12 +27,12 @@ All datasets are public. Set `DATA_FOLDER` in each `params.py` to your copy.
 | dataset | source | figures |
 |---|---|---|
 | MERFISH mouse brain (Zhang et al., *Nature* 2023) | [CELLxGENE](https://cellxgene.cziscience.com/collections/0cca8620-8dee-45d0-aef5-23f032a5cf09) | 2, 3, S1A-S5, S10-S14 |
-| CosMx human frontal cortex (Bruker Spatial Biology) | [CosMx FFPE human frontal cortex](https://brukerspatialbiology.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/human-frontal-cortex-ffpe-dataset/) | S9 |
+| CosMx human frontal cortex (Bruker Spatial Biology) | [CosMx FFPE human frontal cortex](https://brukerspatialbiology.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/human-frontal-cortex-ffpe-dataset/) | S8 |
 | Visium HD colorectal cancer (Oliveira et al., *Nat. Genet.* 2025) | [10x Genomics](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-human-crc-v4) | S1B, S6, S7 |
 | Xenium human breast cancer (Janesick et al., *Nat. Commun.* 2023) | [10x Genomics](https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast) | 4, S15, S16, Table 1 |
-| Breast cancer scRNA-seq atlas (Wu et al., *Nat. Genet.* 2021) | [CELLxGENE](https://cellxgene.cziscience.com/collections/dea97145-f712-431c-a223-6b5f565f362a) | S16, Table 1 |
+| Breast cancer scRNA-seq atlas (Wu et al., *Nat. Genet.* 2021) | [CELLxGENE](https://cellxgene.cziscience.com/collections/dea97145-f712-431c-a223-6b5f565f362a) | Table 1 |
 | Breast scRNA-seq "Global Atlas" (*NAR Genom. Bioinform.*) | [CELLxGENE](https://cellxgene.cziscience.com/collections/9432ae97-4803-4b9f-8f64-2b41e42ad3cb) | S17 |
-| Slide-tags human tonsil (Russell et al., *Nature* 2024) | [Single Cell Portal SCP2169](https://singlecell.broadinstitute.org/single_cell/study/SCP2169) | S8 |
+| Slide-tags human tonsil (Russell et al., *Nature* 2024) | [Single Cell Portal SCP2169](https://singlecell.broadinstitute.org/single_cell/study/SCP2169) | S9 |
 | MERSCOPE pan-cancer (Vizgen FFPE immuno-oncology release) | [Vizgen](https://info.vizgen.com/merscope-ffpe-solution) | 5, S18 |
 
 ## How to run
@@ -57,9 +57,9 @@ Each dataset README gives the exact commands, and which figure each script or no
 | ↳ [`merfish_brain/synthetic_gene/`](merfish_brain/synthetic_gene/README.md) | Fig. S5 |
 | [`crc_visium_hd/`](crc_visium_hd/README.md) | Fig. S6, S7 |
 | ↳ [`crc_visium_hd/cell_type_robustness/robustness_to_annotation_error/`](crc_visium_hd/cell_type_robustness/robustness_to_annotation_error/README.md) | Fig. S1B |
-| [`cosmx_brain/`](cosmx_brain/README.md) | Fig. S9 |
+| [`cosmx_brain/`](cosmx_brain/README.md) | Fig. S8 |
 | [`breast/`](breast/README.md) | Fig. 4, S15, S16, S17, Table 1 |
-| [`slidetags_tonsil/`](slidetags_tonsil/README.md) | Fig. S8 |
+| [`slidetags_tonsil/`](slidetags_tonsil/README.md) | Fig. S9 |
 | [`pancancer/`](pancancer/README.md) | Fig. 5, S18 |
 
 ## Trained models
